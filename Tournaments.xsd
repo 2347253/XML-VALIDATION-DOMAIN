@@ -7,8 +7,11 @@
     </xs:simpleType>
 
     <xs:simpleType name="currencyType">
-        <xs:restriction base="xs:decimal"/>
-    </xs:simpleType>
+    <xs:restriction base="xs:decimal">
+        <xs:minInclusive value="0"/>
+        <xs:maxInclusive value="1000000"/>
+    </xs:restriction>
+    </xs:simpleType>    
 
     <!-- Define complex types -->
     <xs:complexType name="tournamentType">
