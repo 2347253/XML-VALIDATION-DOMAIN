@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Tournaments (Tournaments+)>
+<!ELEMENT Tournament (Tid,Tname,date,location,game,prize_pool,organization,sponsors)>
+<!ELEMENT Tid (#PCDATA)>
+<!ELEMENT Tname (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT game (#PCDATA)>
+<!ELEMENT prize_pool (#PCDATA)>
+<!ELEMENT organization (#PCDATA)>
+<!ELEMENT sponsors (#PCDATA)>
+    
+<!ATTLIST Tournament xmlns CDATA #FIXED "urn:tournaments">
