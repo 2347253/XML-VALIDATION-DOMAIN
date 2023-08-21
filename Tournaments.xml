@@ -6,7 +6,7 @@
         <date>24-04-2022</date>
         <location>Iceland, Reykjavík</location>
         <game>Valorant</game>
-        <prize_pool>675,000</prize_pool>
+        <prize_pool>675000</prize_pool>
         <organization>Riot Games</organization>
         <sponsors>Secretlabs</sponsors>
     </Tournament>
@@ -17,7 +17,7 @@
         <date>05-08-2023</date>
         <location>India</location>
         <game>Valorant</game>
-        <prize_pool>150,000</prize_pool>
+        <prize_pool>150000</prize_pool>
         <organization>Red Bull</organization>
         <sponsors>Intel</sponsors>
     </Tournament>
@@ -61,7 +61,7 @@
         <date>06-04-2023</date>
         <location>England, Bristol</location>
         <game>CSGO</game>
-        <prize_pool>300,000</prize_pool>
+        <prize_pool>300000</prize_pool>
         <organization>MSY org</organization>
         <sponsors>Envidya</sponsors>
     </Tournament>
