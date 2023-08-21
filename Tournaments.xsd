@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define simple types -->
+    <xs:simpleType name="dateType">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="currencyType">
+        <xs:restriction base="xs:decimal"/>
+    </xs:simpleType>
+
+    <!-- Define complex types -->
+    <xs:complexType name="tournamentType">
+        <xs:sequence>
+            <xs:element name="Tid" type="xs:integer"/>
+            <xs:element name="Tname" type="xs:string"/>
+            <xs:element name="date" type="dateType"/>
+            <xs:element name="location" type="xs:string"/>
+            <xs:element name="game" type="xs:string"/>
+            <xs:element name="prize_pool" type="currencyType"/>
+            <xs:element name="organization" type="xs:string"/>
+            <xs:element name="sponsors" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tournamentsType">
+        <xs:sequence>
+            <xs:element name="Tournament" type="tournamentType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Define root element -->
+    <xs:element name="Tournaments" type="tournamentsType"/>
+
+</xs:schema>
