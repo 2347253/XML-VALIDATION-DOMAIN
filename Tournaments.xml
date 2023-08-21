@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tournaments>
+    <Tournament>   
+        <Tid>1</Tid>
+        <Tname>Valorant Champions (VCT)</Tname>
+        <date>24-04-2022</date>
+        <location>Iceland, Reykjavík</location>
+        <game>Valorant</game>
+        <prize_pool>675,000</prize_pool>
+        <organization>Riot Games</organization>
+        <sponsors>Secretlabs</sponsors>
+    </Tournament>
+
+    <Tournament>   
+        <Tid>2</Tid>
+        <Tname>Campus Clutch Indian leg Tournament</Tname>
+        <date>05-08-2023</date>
+        <location>India</location>
+        <game>Valorant</game>
+        <prize_pool>150,000</prize_pool>
+        <organization>Red Bull</organization>
+        <sponsors>Intel</sponsors>
+    </Tournament>
+
+    <Tournament>   
+        <Tid>3</Tid>
+        <Tname>AKEF Tournament</Tname>
+        <date>19-03-2023</date>
+        <location>Kerala, Kochi</location>
+        <game>BGMI</game>
+        <prize_pool>600</prize_pool>
+        <organization>AKEF Esports</organization>
+        <sponsors>AMD</sponsors>
+    </Tournament>
+
+    <Tournament>   
+        <Tid>4</Tid>
+        <Tname>Xactitude Esports Tournament</Tname>
+        <date>02-03-2023</date>
+        <location>Bengaluru, Kothanur</location>
+        <game>Valorant</game>
+        <prize_pool>0</prize_pool>
+        <organization>Kristu Jayabti Esports</organization>
+        <sponsors>NIL</sponsors>
+    </Tournament>
+
+    <Tournament>   
+        <Tid>5</Tid>
+        <Tname>Fifa Footies Tournament</Tname>
+        <date>05-08-2023</date>
+        <location>Coimbatore</location>
+        <game>Fifa 23</game>
+        <prize_pool>500</prize_pool>
+        <organization>Red Cow Esports</organization>
+        <sponsors>Intelligent</sponsors>
+    </Tournament>
+
+    <Tournament>   
+        <Tid>6</Tid>
+        <Tname>Global Strikes Tournament</Tname>
+        <date>06-04-2023</date>
+        <location>England, Bristol</location>
+        <game>CSGO</game>
+        <prize_pool>300,000</prize_pool>
+        <organization>MSY org</organization>
+        <sponsors>Envidya</sponsors>
+    </Tournament>
+</Tournaments>
